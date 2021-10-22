@@ -55,6 +55,9 @@ export const HeroLeft = styled.div`
     margin-bottom: 1rem;
     font-weight: 400;
   }
+  .txt{
+    font-size:2.6rem;
+  }
 
   p {
     font-size: 17px;
@@ -76,7 +79,7 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 400px;
+  height: 450px;
   width: auto;
 `;
 

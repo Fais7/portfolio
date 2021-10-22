@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 import Header from "./Header";
 import fworld from '../Assets/fworld.png'
+import Typical from 'react-typical'
 import {
   HeroContainer,
   HeroWrapper,
@@ -24,7 +25,10 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm <i>{`<`} </i>Faisal Farhan<i>{'/>'}</i></h1>
+            <h1>Hi, I'm <i> <Typical 
+        steps={['< Faisal Farhan />',1000, ' ',500 ]}
+        loop={Infinity}
+        wrapper="p" className="txt"/></i></h1>
             <h5>Full Stack Web Developer</h5>
             
           </HeroLeft>
