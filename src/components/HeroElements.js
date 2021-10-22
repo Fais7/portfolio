@@ -56,7 +56,7 @@ export const HeroLeft = styled.div`
     font-weight: 400;
   }
   .txt{
-    font-size:2.5rem;
+    font-size:2.4rem;
     color: rgb(255, 153, 0);
     font-weight: 500;
   }
