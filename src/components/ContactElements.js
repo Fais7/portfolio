@@ -9,7 +9,7 @@ export const Email = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  color: olive;
+  color: rgb(255, 153, 0);
 
   span {
     font-size: 1rem;

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 import Header from "./Header";
-import fworld from '../Assets/fworld.png'
-import Typical from 'react-typical'
+import fworld from '../Assets/fworld.png';
+import Typical from 'react-typical';
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -30,12 +31,12 @@ function Hero() {
         loop={Infinity}
         wrapper="p" className="txt"/></i></h1>
             <h5>Full Stack Web Developer</h5>
-            
+            <a href="https://github.com/Fais7/portfolio/files/7400506/F77resume.pdf" className="btnr" >Resume </a>
           </HeroLeft>
           <HeroRight>
             <Image
               src={fworld}
-              alt="man-svgrepo"
+              alt="faisal"
             />
           </HeroRight>
         </HeroWrapper>

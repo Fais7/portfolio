@@ -57,12 +57,32 @@ export const HeroLeft = styled.div`
   }
   .txt{
     font-size:2.6rem;
+    color: rgb(255, 153, 0);
+    font-weight: 500;
   }
 
   p {
     font-size: 17px;
     color: #f6f6f6;
     opacity: 0.85;
+  }
+
+  .btnr{
+  background-color: #555555;
+  border: none;
+  color: #cccccc;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 16px;
+  box-shadow: 1px 2px 1px 2px rgb(217, 217, 217);
+  
+  }
+  .btnr:hover {
+    color: rgb(117, 163, 163);
+    box-shadow: 1px 2px 1px 2px rgb(117, 163, 163);
   }
 
   @media screen and (max-width: 992px) {

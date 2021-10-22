@@ -22,6 +22,7 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="contact" smooth={true}>
             Contact
           </NavLink>
+          
         </NavMenu>
         <Bars onClick={toggle} />
       </Nav>

@@ -20,7 +20,7 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Faisal Farhan</strong> and ‟Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.Passionate about implementing and launching new projects.”
+            Hello! My name is <strong>Faisal Farhan</strong> and i'm an self-motivated and hardworking seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge in the growth of the organization.<br/> <mark> Good knowledge of java oop's concept, java advance as well as reactJS include axios, redux, hooks, props etc...</mark> 
           </div><br />
           
           <Technologies>
