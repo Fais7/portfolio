@@ -31,7 +31,7 @@ function Hero() {
         loop={Infinity}
         wrapper="p" className="txt"/></i></h1>
             <h5>Full Stack Web Developer</h5>
-            <a href="https://github.com/Fais7/portfolio/files/7400506/F77resume.pdf" className="btnr" >Resume </a>
+            <a href="https://github.com/Fais7/portfolio/files/7400506/F77resume.pdf" download className="btnr" >Resume </a>
           </HeroLeft>
           <HeroRight>
             <Image
