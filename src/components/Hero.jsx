@@ -44,7 +44,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src={"https://raw.githubusercontent.com/Fais7/portfolio/main/src/Assets/scroll-down.svg"}
+              src={"https://raw.githubusercontent.com/Fais7/portfolio/main/src/Assets/scolls.svg"}
               alt="scroll-down"
             />
           </ScrollLink>
