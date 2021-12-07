@@ -26,12 +26,12 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm <i> <Typical 
-        steps={['< Faisal Farhan />',1000, ' ',500 ]}
-        loop={Infinity}
-        wrapper="p" className="txt"/></i></h1>
+            <h1>Hi, I'm <i> <Typical
+              steps={['< Faisal Farhan />', 1000, ' ', 500]}
+              loop={Infinity}
+              wrapper="p" className="txt" /></i></h1>
             <h5>Full Stack Web Developer</h5>
-            <a href="https://github.com/Fais7/portfolio/files/7400506/F77resume.pdf" download className="btnr" >Resume </a>
+            <a href="/#" download className="btnr" >Resume </a>
           </HeroLeft>
           <HeroRight>
             <Image
@@ -44,7 +44,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="https://raw.githubusercontent.com/gurupawar/portfolio/main/assets/scroll-down.svg"
+              src={"https://raw.githubusercontent.com/gurupawar/portfolio/main/assets/scroll-down.svg"}
               alt="scroll-down"
             />
           </ScrollLink>
